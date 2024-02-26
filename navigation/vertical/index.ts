@@ -14,20 +14,20 @@ export default [
         children: [
           {
             title: "회사 정보",
-            to: { name: "logistic-base-page-baseInfo-CompanyFormPage" },
+            to: { name: "logistic-base-page-BaseInfo-CompanyFormPage" },
           },
           {
             title: "사업장 정보",
-            to: { name: "logistic-base-page-baseInfo-WorkPlaceFormPage" },
+            to: { name: "logistic-base-page-BaseInfo-WorkPlaceFormPage" },
           },
           {
             title: "부서정보",
-            to: { name: "logistic-base-page-baseInfo-DeptFormPage" },
+            to: { name: "logistic-base-page-BaseInfo-DeptFormPage" },
           },
           {
             title: "거래처 정보",
             to: {
-              name: "logistic-base-page-baseInfo-clientInfo-ClientFormPage",
+              name: "logistic-base-page-BaseInfo-clientInfo-ClientFormPage",
             },
           },
         ],
@@ -50,7 +50,7 @@ export default [
       {
         title: "창고관리",
         icon: { icon: "tabler-smart-home" },
-        to: { name: "logistic-base-page-baseInfo-warehouseInfo" },
+        to: { name: "logistic-base-page-BaseInfo-warehouseInfo" },
       },
     ],
   },
